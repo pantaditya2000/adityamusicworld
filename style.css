@@ -1,0 +1,111 @@
+
+html {
+
+    height: 100%;
+}
+
+
+
+body {
+ 
+background-color: rgb(46, 42, 42);
+background-image: url(images/music_bckgrnd.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+
+
+header {
+
+height:118px;
+
+text-align: right;
+
+}
+nav {
+   
+   
+    text-align: center;
+    background-color: rgba(210, 105, 30, 0.404);
+
+     font-family: 'Courier New', Courier, monospace;
+     padding-top: 14px;
+     padding-bottom: 14px;
+}
+
+
+main {
+    
+    height:400px;
+   
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+
+
+}
+
+
+footer {
+   
+    height:40px;
+    background-color: rgba(210, 105, 30, 0.288);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    text-size-adjust: 10px;
+
+}
+.container {
+
+
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+
+color: honeydew;
+font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+ color: ghostwhite;
+ font-family: 'Courier New', Courier, monospace;
+
+}
+a:hover {
+    background-color: chocolate;
+  }
+
+
+  nav a {
+    
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
+
+
+  footer a {
+
+    text-decoration: none;
+     
+  }
+  a:link:active, a:visited:active {
+    color: (internal value);
+  }
